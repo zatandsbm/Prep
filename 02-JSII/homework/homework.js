@@ -12,7 +12,7 @@ function devolverUltimoElemento(array) {
 }
 
 function incrementarPorUno(array) {
-  // "array" debe ser una arreglo de números enteros (int/integers)
+  // "array" debe ser una arreglo de números enteros
   // Aumenta cada número por 1 y devuelve el array
   // Tu código:
   for (var i = 0; i < array.length; i++) {
@@ -60,7 +60,7 @@ function arrayContiene(array, elemento) {
 }
 
 function promedioResultadosTest(resultadosTest) {
-  // "resultadosTest" debe ser una matriz de enteros (int/integers)
+  // "resultadosTest" debe ser un array de enteros
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
   var suma = 0;
@@ -71,7 +71,7 @@ function promedioResultadosTest(resultadosTest) {
 }
 
 function numeroMasGrande(numeros) {
-  // "numeros" debe ser una matriz de enteros (int/integers)
+  // "numeros" debe ser un array de enteros
   // Devuelve el número más grande
   // Tu código:
   var max = numeros[0];
@@ -304,7 +304,7 @@ function agregarAmigo(usuario, nuevoAmigo) {
 function sumarLikesDeUsuario(usuario) {
   // "usuario" tiene una propiedad llamada "posts" que es un array
   // "posts" es un array de objetos "post"
-  // Cada objeto "post" tiene una propiedad llamada "likes" que es un entero (int/integer)
+  // Cada objeto "post" tiene una propiedad llamada "likes" que es un entero
   // Suma todos los likes de todos los objetos "post"
   // Devuelve la suma
   // Tu código:

@@ -172,7 +172,7 @@ function esVocal(letra){
 }
 
 function obtenerMayor(x, y) {
-  // "x" e "y" son números enteros (int).
+  // "x" e "y" son números enteros.
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
