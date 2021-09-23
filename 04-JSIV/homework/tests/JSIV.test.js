@@ -10,7 +10,6 @@ const {
   numberOfCharacters,
   capicua,
   deleteAbc,
-  sortArray,
   buscoInterseccion
 } = require('../homework');
 
@@ -98,13 +97,6 @@ describe('deleteAbc(cadena)', function() {
 
   });
 });  
-
-describe('sortArray(array)', function() {
-  it('should return a new array in increasing order', function() {
-    expect(sortArray(["You", "are", "beautiful", "looking"])).toEqual(["You", "are", "looking", "beautiful"]);
-    expect(sortArray(["pera", "manzana", "alcaucil", "papa"])).toEqual(["pera", "papa", "manzana", "alcaucil"]);
-  });
-});
 
 describe('buscoInterseccion(arreglo1, arreglo2)', function() {
   it('should return the common elements of the array, and in case they do not match, return an empty array', function() {

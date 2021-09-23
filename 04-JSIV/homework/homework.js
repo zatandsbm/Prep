@@ -8,13 +8,13 @@ function invocarCallback(cb) {
 
 function operacionMatematica(n1, n2, cb) {
   // Vamos a recibir una función que realiza una operación matemática como callback junto con dos números.
-  // Devolver el callback pasándole como argumentos los números recibidos.
+  // Devolver lo que retorne el ejecutar el callback pasándole como argumentos los números recibidos.
   // Tu código:
 
 }
 
 function sumarArray(numeros, cb) {
-  // Suma todos los números enteros (int/integers) de un array ("numeros")
+  // Suma todos los números enteros de un array ("numeros")
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   // Tu código:
@@ -80,13 +80,6 @@ function deleteAbc(cadena){
 
 }
 
-function sortArray(arr) {
-  // La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
-  // Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
-  // Tu código:
-
-}
-
 function buscoInterseccion(arreglo1, arreglo2){
   // Existen dos arrays, cada uno con cierta cantidad de números. A partir de ello, escribir una función que permita 
   // retornar un nuevo array con la intersección de ambos elementos. (Ej: [4,2,3] unión [1,3,4] = [3,4].
@@ -110,6 +103,5 @@ module.exports = {
   numberOfCharacters,
   capicua,
   deleteAbc,
-  sortArray,
   buscoInterseccion
 };
