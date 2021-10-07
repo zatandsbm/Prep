@@ -1,0 +1,27 @@
+
+body {
+  width: 600px;
+  margin: 30 auto;
+    background-color: black;
+    color: white;
+  }
+  h1{
+      color:lightgray;
+  }
+a {
+    color:lawngreen
+}
+span {
+      font-size: 25px;
+      color:lawngreen;
+      margin: 50px;
+  }
+
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(39, 39, 39);
+    padding: 50px;
+    border:blueviolet 5px solid;
+  }
+
